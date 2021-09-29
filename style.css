@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.header{
+   height: 100vh;
+
+}
+.navbar-style{
+    box-shadow: 0px 5px 10px #383535;
+    border-radius: 0 50%; 
+    font-family: 'Kaushan Script', cursive;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+.logo{
+    height: 48px;
+    padding: 2px 10px;
+}
+ul li{
+    margin-right: 36px;
+}
+.batmanimg{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    box-shadow: 2px 3px #383535;
+    filter: drop-shadow(0 0 20px rgb(0, 0, 0));
+}
+.sub-main{
+    top: 200px;
+    position: absolute;
+}
+.big-text{
+    font-size: 60px;
+    animation: batman 3s 1;
+    background-image: linear-gradient(to top, #221a1c 0%, #a02b08 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+@keyframes batman{
+    0%{
+        margin-left: -150px;
+        color: #fff;
+    }
+    25%{
+        margin-top: -100px;
+    }
+}
+.main{
+    filter: drop-shadow(0 0 10px);
+    top: 50px;
+    position: absolute;
+    box-shadow: 2px 4px 10px #000;
+}
+.main:hover{
+    transform: scale(.98);
+transition: .7s;
+}
+a.btn{
+    border-radius: 20px;
+    margin: 30px 63px;
+    width: 150px;
+    padding: 10px;
+}
+a.btn1{
+    background-color: #383535;
+    color: #fff;
+    border: 2px solid #000;
+    box-shadow: 2px 4px 10px #000;
+}
+a.btn1:hover{
+    background-color: #fff;
+    color: #000;
+}
